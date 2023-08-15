@@ -39,10 +39,12 @@ jobs:
         continue-on-error: true 
 
       # Run the linter.
-      - run: 
+      - name: Run linter
+      # run: 
 
       # Send a console message at completion.
-      - run: |
+      - name: Send console message
+        run: |
           echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
 
         
