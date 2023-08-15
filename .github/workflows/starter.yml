@@ -39,7 +39,7 @@ jobs:
         continue-on-error: true 
 
       # Run the linter.
-      - name: Run linter
+      # name: Run linter
       # run: 
 
       # Send a console message at completion.
