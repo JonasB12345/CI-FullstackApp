@@ -31,7 +31,7 @@ jobs:
 
       # Install the dependencies.
       - name: Install dependencies
-        run: npm install /backend
+        run: npm install ./backend/
 
       # Run the tests.
       - name: build and test
